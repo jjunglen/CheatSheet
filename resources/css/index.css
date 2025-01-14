@@ -86,11 +86,11 @@ img .color-wheel {
 .saturation-lightness .swatch > div {
     flex-grow: 1;
     border-right: 10px solid #e6e6e6;
-  }
-  
-  .saturation-lightness .swatch > div:last-child {
+}
+
+.saturation-lightness .swatch > div:last-child {
     border-right: 0;
-  }
+}
 
 /* Saturation */
 
