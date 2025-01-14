@@ -14,9 +14,49 @@
                 The RGB color scheme is convient because it's very close to how computers represent color internally. There's another another equally powerful system in CSS called the <span class="hsl">Hue-Saturation-Lightness</span> color scheme, abbreviated as HSL. 
             </p>
         </div>
-        <div>
-            
+        <div class="overview">
+            <p>
+                The syntax for HSL is similar to the decimal form of RGB, though it differs important ways. The first number represets the degree of hue, and can be between 0 to 360. The second and third numbers are percentages, representing saturation, and lightness respectively.
+            </p>
+            <h2 class="example">color: hsl(30, 100%, 50%)</h2>
         </div>
-        <img class="color-wheel" src="./resources/color.gif">
+        <div class="hue">
+            <h2>Hue</h2>
+            <p>
+                Hue is the first number. It refers to an angle on a color wheel. <span class="red">Red is 0 degrees</span>, <span class="green">Green is at 120 degrees</span>, <span class="blue">Blue is 240 degrees</span>, and then back to <span class="red">Red at 360 degrees</span>. Review the color wheel below for more color degrees.
+            </p>
+            <img class="color-wheel" src="./resources/wheel.png" alt="color wheel">
+        </div>
+        <div class="saturation-lightness">
+            <div class="saturation-information">
+                <h3>Saturation</h3>
+                <p>
+                    Saturation refers to the intensity or purity of a color. The saturation is a percentage based, and as you increase to 100%, color become richer. As saturation decreases to 0%, colors come grayer.
+                </p>
+                <div class="swatches">
+                    <div class="swatch saturation">
+                        <div class="color-1"></div>
+                        <div class="color-2"></div>
+                        <div class="color-3"></div>
+                        <div class="color-4"></div>
+                        <div class="color-5"></div>
+                      </div>
+                </div>
+            </div>
+            <div class="lightness-information">
+                <h3>Lightness</h3>
+                <p>
+                    Lightness refers to the intensity or purity of the color. Halfway, or <em>50% is normal lightness</em>. Imagine a sliding dimmer on a lightswitch that starts half way. Slidig the dimmer up towards 100% makes the color lighter, closer to white. Sliding the dimmer down towards 0% makes the color darker, closer to black
+                </p>
+                <div class="swatches">
+                    <div class="swatch lightness">
+                      <div class="color-1"></div>
+                      <div class="color-2"></div>
+                      <div class="color-3"></div>
+                      <div class="color-4"></div>
+                      <div class="color-5"></div>
+                    </div>
+            </div>
+        </div>
     </body>
 </html>

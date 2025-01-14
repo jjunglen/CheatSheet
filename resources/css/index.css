@@ -25,7 +25,93 @@ h1 {
     overflow: auto;
 }
 
+.example {
+    color: hsl(30, 100%, 50%);
+    border-bottom: 10px;
+}
+
 img .color-wheel {
     position: absolute;
     align-items: center;
 }
+
+.red {
+    color: hsl(0, 100%, 50%);
+}
+
+.green {
+    color: hsl(120, 100%, 50%);
+}
+
+.blue{
+    color: hsl(240, 100%, 50%);
+}
+
+.saturation-lightness .swatches {
+    width: 60%;
+}
+
+.saturation-lightness .swatch {
+    display: flex;
+    height: 6.6875rem;
+    border: 10px solid #e6e6e6;
+    margin-bottom: 1.25rem;
+}
+
+.saturation-lightness .swatch:last-child {
+    margin-bottom: 0;
+}
+
+.saturation-lightness .swatch > div {
+    flex-grow: 1;
+    border-right: 10px solid #e6e6e6;
+  }
+  
+  .saturation-lightness .swatch > div:last-child {
+    border-right: 0;
+  }
+
+/* Saturation */
+
+.saturation-lightness .saturation .color-1 {
+    background-color: hsl(30, 100%, 50%);
+}
+
+.saturation-lightness .saturation .color-2 {
+    background-color: hsl(30, 75%, 50%);
+}
+
+.saturation-lightness .saturation .color-3 {
+    background-color: hsl(30, 50%, 50%);
+}
+
+.saturation-lightness .saturation .color-4 {
+    background-color: hsl(30, 25%, 50%);
+}
+
+.saturation-lightness .saturation .color-5 {
+    background-color: hsl(30, 0%, 50%);
+}
+
+/* Lightness */
+
+.saturation-lightness .lightness .color-1 {
+    background-color: hsl(30, 100%, 100%);
+}
+
+.saturation-lightness .lightness .color-2 {
+    background-color: hsl(30, 100%, 75%);
+}
+
+.saturation-lightness .lightness .color-3 {
+    background-color: hsl(30, 100%, 50%);
+}
+
+.saturation-lightness .lightness .color-4 {
+    background-color: hsl(30, 100%, 25%);
+}
+
+.saturation-lightness .lightness .color-5 {
+    background-color: hsl(30, 100%, 0%);
+}
+
